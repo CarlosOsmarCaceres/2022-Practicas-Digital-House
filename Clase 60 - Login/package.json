@@ -1,0 +1,19 @@
+{
+  "name": "loginomar",
+  "version": "1.0.0",
+  "description": "npm i ejs cookie-parser express-validator express-session bcryptjs",
+  "main": "src/app.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.7",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

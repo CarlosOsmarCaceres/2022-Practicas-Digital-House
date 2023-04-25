@@ -1,0 +1,47 @@
+body {
+    /* background-color: aqua; */
+    /* background: linear-gradient(45deg, red, orange); */
+    background-image: url('foto.jpg');
+    background-position: center;
+    background-size: 250px; 
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+}
+
+.card1 {
+    width: 250px;
+    height: 350px;
+    background-color: grey;
+    background-image: url('oleos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none;
+}
+
+.card1 p{
+    text-align: center;
+    color: blue;
+}
+
+.card1 h3 {
+    text-align: center;
+}
+
+.card2 {
+    width: 250px;
+    height: 300px;
+    background-color: aqua;
+    background-image: url('acuarelas.jpg');
+    display: none;
+
+}
+
+section {
+    text-align: center;
+    background-image: url('marcadorSharpie.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+    color: brown;
+}

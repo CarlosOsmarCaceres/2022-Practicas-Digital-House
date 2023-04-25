@@ -1,0 +1,10 @@
+section.register .input-conteiner {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+}
+
+section.register {
+    max-width: 375px;
+}

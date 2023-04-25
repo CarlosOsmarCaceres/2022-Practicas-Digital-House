@@ -1,0 +1,3 @@
+Falta terminar en la parte de api/movies
+
+    Poder probar Postman con create y realizar el destroy.

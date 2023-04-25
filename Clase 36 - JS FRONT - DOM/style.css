@@ -1,0 +1,28 @@
+.text-danger {
+    color:red
+}
+
+nav#menu {
+    opacity: 0;
+    padding: 1rem;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    position: center;
+}
+
+@keyframes fade-in {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+nav#menu.active {
+    display: block;
+    opacity: 1;
+    animation: fade-in  ;
+}

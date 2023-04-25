@@ -1,0 +1,89 @@
+h3 {
+    color: aqua;
+}
+
+#titulo {
+    color: blue;
+}
+
+.principal {
+    font-size: 40px;
+}
+
+.subtitulo {
+    border: 2px solid black;
+}
+
+h3.subtitulo {
+    background-color: brown;
+}
+
+p.subtitulo {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: red;
+}
+
+.home ul.menu2 li a {
+    color: aqua;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.login ul.menu1 li a {
+    color: blueviolet;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#p1 {
+    font-size: 20px;
+}
+#p2 {
+    font-weight:900;
+}
+#p3 {
+    font-style: oblique;
+}
+#p4 {
+    text-decoration:line-through;
+}
+#p5 {
+    text-align: right;
+}
+
+div {
+    height: 150px;
+    width: 150px;
+}
+
+.box1 {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(110,9,121,0.49002849002849) 50%, rgba(0,212,255,1) 100%); 
+}
+.box2 {
+    background-color: rgb(233, 150, 122);
+}
+.box3 {
+    background-color: #FF1493;
+    opacity: 0.5;
+}
+
+.box4 {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.box5 {
+    background: linear-gradient(45deg, red, blueviolet);
+}
+

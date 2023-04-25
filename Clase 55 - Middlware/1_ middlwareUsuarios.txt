@@ -1,0 +1,6 @@
+IMPORTANTE!!!
+
+1_ En middlewares--------userLogs.js-------- se guardan todos los query por el usuario a traves de las url, queda un log de losregistros.
+2_ En middlewares--------userMIddleware.js - Es el middleware / el seguridad que pregunta si el usuario ingresado se encuentra registrado o no  en la data o en el json.
+
+

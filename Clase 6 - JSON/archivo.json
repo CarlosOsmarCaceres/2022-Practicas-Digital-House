@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "nane":"Martin",
+        "age":20,
+        "email":"mail@gmail.com",
+        "active":true
+    },
+    {
+        "id":2,
+        "nane":"Sebastian",
+        "age":18,
+        "email":"mail@gmail.com",
+        "active":true
+    },
+    {
+        "id":3,
+        "nane":"Jona",
+        "age":74,
+        "email":"mail32@gmail.com",
+        "active":false
+    }
+]

@@ -1,0 +1,14 @@
+/* FOOTER */
+
+footer{
+    border: solid 1px;
+    height: 5rem;
+}
+
+footer .footer_homeGreen{
+    background-color: green;
+
+}
+footer .footer_homeLimon{
+    background-color: greenyellow;
+}

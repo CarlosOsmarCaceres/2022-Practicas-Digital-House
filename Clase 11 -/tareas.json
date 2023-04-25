@@ -1,0 +1,14 @@
+[
+    {
+        "Titulo": "Proyecto Integrador",
+        "Estado": "Pendiente"
+    },
+    {
+        "Titulo": "Capacitacion para realizar el proyecto",
+        "Estado": "En proceso"
+    },
+    {
+        "Titulo": "Clases en Playground",
+        "Estado": "Terminado"
+    }
+]

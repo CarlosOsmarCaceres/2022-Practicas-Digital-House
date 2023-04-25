@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            height: fit-content;
+            border: thin solid black;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h2>FORMULARIO HTML</h2>
+    <form action="data.html" method="GET">
+        <label for="inputName">Nombre y apellido</label>
+        <input type="text" name="nombre" id="inputName" placeholder="Ingrese su nombre" required>
+        <label for="DNI">DNI</label>
+        <input type="number" name="dni" id="DNI" placeholder="Ingrese su DNI" required>
+        <label for="tel">Telefono</label>
+        <input type="tel" name="tel" id="tel">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+        <label for="pass">Contraseña</label>
+        <input type="password" name="pass" id="pass" required>
+        <label for="avatar">Foto de perfil</label>
+        <input type="file" name="avatar" id="avatar" multiple accept=".jpg" >
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" name="nacimiento" id="fecha">
+        <label for="color">Elija su color</label>
+        <input type="color" name="color" id="color">
+        <input type="time" name="" id="">
+        <label for="msg">Mensaje</label>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        <input type="range" list="tickmarks">
+            <datalist id="tickmarks">
+                <option value="0" label="0%">
+                <option value="10">
+                <option value="20">
+                <option value="30">
+                <option value="40">
+                <option value="50" label="50%">
+                <option value="60">
+                <option value="70">
+                <option value="80">
+                <option value="90">
+                <option value="100" label="100%">
+            </datalist><br>
+        <label for="genre">Género</label>
+        <select name="genero" id="genre">
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+            <option value="" selected hidden>Elige tu género</option>
+            <option value="NB">No binario</option>
+        </select>
+        <hr>
+        <h3>Tus hobbies</h3>
+        <label for="series">Mirar series</label>
+        <input type="checkbox" name="hobbies" id="series" value="series" checked>
+        <label for="dibujar">Dibujar</label>
+        <input type="checkbox" name="hobbies" id="dibujar" value="dibujar">
+        <label for="code">Programar</label>
+        <input type="checkbox" name="hobbies" id="code" value="code">
+        <h3>Medios de pago</h3>
+        <label for="efectivo">Efectivo</label>
+        <input type="radio" name="pay" value="Efectivo" id="efectivo">
+        <label for="debito">Débito</label>
+        <input type="radio" name="pay" value="Debito" id="debito">
+        <label for="credito">Crédito</label>
+        <input type="radio" name="pay" value="credito" id="credito">
+        <button type="submit">ENVIAR</button>
+        <button type="reset">LIMPIAR</button>
+    </form>
+</body>
+</html>
